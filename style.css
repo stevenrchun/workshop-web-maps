@@ -55,6 +55,25 @@ nav > * {
   display: none;
 }
 
+.marker {
+  background-image: url('img/mapbox-icon.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* adapted from https://www.w3schools.com/howto/howto_css_menu_icon.asp */
 .bar1, .bar2, .bar3 {
     width: 35px;
